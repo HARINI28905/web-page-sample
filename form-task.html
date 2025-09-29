@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hari{
+            background-color: rgb(240, 188, 142);
+            padding: auto;
+            border: solid black;
+            
+            justify-self:center ;
+           
+        }
+        #helo{
+           text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hari">
+    <h2>Student Registrartion Form</h2>
+    <label >Roll No:</label>
+    <input type="number"> <br> <br>
+    <label > Student Name:</label>                                                                                                          
+    <input type="text" placeholder="FirstName">
+
+    <input type="text" placeholder="LastName"> <br><br>
+    <lable>Date Of Brith:</lable>
+    <input type="date" ><br><br>
+    <label>Mobile No:</label>
+    <input type="number"><br><br>
+    <lable>Email ID:</lable>
+    <input type="email"><br><br>
+    <lable> Password</lable>
+    <input type="password"><br><br>
+    <label>Gender:  </label>
+    <lable>Male</lable>
+    <input type="radio" id="male" name="Gender" value="male">
+    <lable>Female</lable>
+    <input type="radio" id="female" name="Gender" value="Female"><br><br>
+    <lable>Department:</lable>
+    <input type="checkbox" id="CSE" name="Department"value="CSE">
+    <lable>CSE</lable>
+    <input type="checkbox" id="IT" name="Department" value="IT">
+    <lable>IT</lable>
+    <input type="checkbox" id="ECE" name="Department" value="ECE">
+    <lable>ECE</lable>
+    <input type="checkbox" id="Civil" name="Department" value="Civil">
+    <lable>Civil</lable>
+    <input type="checkbox" id="Mech" name="Department" value="Mech"> <br><br>
+    <lable>Course:</lable>
+    <select name="Current Course's" id="Course">
+        <option value="SELECT">----------Select current Course's------------</option>
+        <option value="12th">12th</option>
+        <option value="Diplomo">Diplomo</option>
+    </select><br><br>
+    <lable> Student Photo:</lable>
+    <input type="file"><br><br>
+    <lable> City:</lable>
+    <input type="text"> <br><br>
+    <label> Address</label>
+    <textarea name="Address" id="Address" rows="6" columns="10"></textarea> <br><br>
+    
+    <div id="helo">
+        <button type="button" onclick="alert(Done)">Register</button>
+    </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
